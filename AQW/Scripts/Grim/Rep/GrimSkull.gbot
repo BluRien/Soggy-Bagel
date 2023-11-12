@@ -48,7 +48,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "-THERE IS A ISSUE THAT IS WHY"
+        "Name": "-THERE IS A DMG ISSUE THATS WHY"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -114,10 +114,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "(Unstable Sage Tonic)"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "(POTENT REVITALIZE ELIXIR)"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -217,7 +213,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "OUT DPS DMG CHECKS"
+        "Name": "OUT DPS/0 CYCLE"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -232,7 +228,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "ENHANCE DOT CAN SOLO + BONUS R1 POTS"
+        "Name": "DOT CAN SOLO | BONUS IF R1 POTS"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -277,7 +273,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "ARCHMAGE HARD TO CODE/LOO HIT 100%"
+        "Name": "SWITCH HARD TO CODE/LOO HIT 100%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -292,7 +288,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "AP AA+HEAL ON 1500HP"
+        "Name": "AP AUTOATTACK + HEAL ON 1500HP"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
