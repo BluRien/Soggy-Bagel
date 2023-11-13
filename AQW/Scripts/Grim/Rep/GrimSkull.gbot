@@ -1448,7 +1448,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "Potent Malevolence Elixir"
+        "ItemName": "Unstable Malevolence Elixir"
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill2, Grimoire",
