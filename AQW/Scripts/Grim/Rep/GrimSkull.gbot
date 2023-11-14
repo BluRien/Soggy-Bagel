@@ -258,7 +258,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "KILL CHEST GET LOOT"
+        "Name": "KILL CHEST"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -318,7 +318,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "KILL MIMIC GET LOOT + PREP R9"
+        "Name": "KILL MIMIC + PREP R9"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -378,7 +378,11 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "KILL GRIMSKULL + PREP NEXT RUN"
+        "Name": "KILL GRIMSKULL + PREP NEXT RUN-"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "-GET DROPPED ITEMS"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -1283,10 +1287,6 @@
         "Name": "ROOM 1"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is not in progress",
@@ -1307,10 +1307,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest2, Grimoire",
         "QuestID": "9469"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
@@ -1381,6 +1377,17 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "Enter",
         "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Enter",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -1635,8 +1642,8 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Room Error (R2)"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -1850,8 +1857,8 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Room Error (R3)"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -2053,17 +2060,6 @@
         "Name": "ROOM 4"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Health Potion???",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Health Potion???"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "r4",
         "Pad": "Left"
@@ -2076,8 +2072,8 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Room Error (R4)"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -2291,8 +2287,8 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Room Error (R5)"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -2506,8 +2502,8 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Room Error (R6)"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -2712,8 +2708,8 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Room Error (R7)"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -2915,17 +2911,6 @@
         "Name": "ROOM 8"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Empty Potion Bottle",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Empty Potion Bottle"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "r8",
         "Pad": "Left"
@@ -2938,8 +2923,8 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Room Error (R8)"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -3153,8 +3138,8 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Room Error (R9)"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -3368,8 +3353,8 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Room Error (R10)"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -3598,8 +3583,8 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Room Error (R11)"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -3813,8 +3798,8 @@
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Room Error (R11)"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
@@ -4050,6 +4035,61 @@
         "Pad": "Spawn"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Health Potion???",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Health Potion???"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Empty Potion Bottle",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Empty Potion Bottle"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Good-looking Punching Bag",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Good-looking Punching Bag"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Emperor Angler Guard",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Emperor Angler Guard"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Empress Angler Guard",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Empress Angler Guard"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "CHECK"
       }
@@ -4075,14 +4115,15 @@
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "iMax": 1000,
-    "sName": "Twilly",
-    "sLang": "xx",
-    "iPort": 5588,
-    "sIP": "socket5.aq.com"
+    "iMax": 1200,
+    "sName": "Gravelyn",
+    "sLang": "it",
+    "iPort": 5589,
+    "sIP": "socket4.aq.com"
   },
   "SkillDelay": 100,
   "EnablePickup": true,
+  "AutoRelogin": true,
   "RelogDelay": 5000,
   "BotDelay": 10,
   "InfiniteAttackRange": true,
