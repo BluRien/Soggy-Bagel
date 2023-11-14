@@ -1816,7 +1816,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ROOM 1"
+        "Label": "CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -2031,7 +2031,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ROOM 1"
+        "Label": "CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -2257,7 +2257,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ROOM 1"
+        "Label": "CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -2472,7 +2472,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ROOM 1"
+        "Label": "CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -2650,7 +2650,7 @@
         "Tag": "Misc",
         "Text": "Int is less than",
         "Value1": "R6C",
-        "Value2": "20"
+        "Value2": "200"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -2674,11 +2674,11 @@
         "Tag": "Misc",
         "Text": "Int is greater than",
         "Value1": "R6C2",
-        "Value2": "10"
+        "Value2": "100"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ROOM 1"
+        "Label": "CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -2893,7 +2893,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ROOM 1"
+        "Label": "CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -3119,7 +3119,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ROOM 1"
+        "Label": "CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -3334,7 +3334,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ROOM 1"
+        "Label": "CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -3564,7 +3564,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ROOM 1"
+        "Label": "CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -3779,7 +3779,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ROOM 1"
+        "Label": "CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -3994,7 +3994,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ROOM 1"
+        "Label": "CHECK"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -4087,6 +4087,7 @@
   "BotDelay": 10,
   "InfiniteAttackRange": true,
   "Untarget": true,
+  "LagKiller": true,
   "SkipCutscenes": true,
   "DisableAnimations": true,
   "WalkSpeed": 8,
