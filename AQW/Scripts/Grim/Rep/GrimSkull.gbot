@@ -13,7 +13,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "CAV DOT LR"
+        "Name": "CAV DOT LR PENITENCE"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -25,11 +25,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "(WIZ HVAMP) (HEALER HVAMP)"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "ABSOLUTION PENITENCE"
+        "Name": "(HEALER HVAMP) ABSOLUTION"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -4017,14 +4013,6 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "iMax": 1200,
-    "sName": "Gravelyn",
-    "sLang": "it",
-    "iPort": 5589,
-    "sIP": "socket4.aq.com"
   },
   "SkillDelay": 100,
   "EnablePickup": true,
