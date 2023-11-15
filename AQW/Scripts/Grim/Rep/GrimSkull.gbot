@@ -13,7 +13,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "AP CAV DOT LOO LR"
+        "Name": "CAV DOT LR"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -63,7 +63,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "AP+LOO+CAV USED LUK 100 ENH"
+        "Name": "CAV USED LUK 100 ENH"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -146,13 +146,6 @@
         "Text": "Set Variable",
         "Value1": "Vainglory Cape",
         "Value2": "Empowered Bonfire Altar"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Set Variable",
-        "Value1": "Wizard HVamp Weapon",
-        "Value2": "Sin of the Abyss"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -549,76 +542,6 @@
         "Message": "Chaos Avenger Not Found"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in inventory",
-        "Value1": "Lord of Order",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 5
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in bank",
-        "Value1": "Lord of Order",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "Lord of Order"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "Lord of Order",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Lord of Order Not Found"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in inventory",
-        "Value1": "ArchPaladin",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 5
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in bank",
-        "Value1": "ArchPaladin",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "ArchPaladin"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "ArchPaladin",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "ArchPaladin Not Found"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
@@ -755,41 +678,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
         "Message": "Vainglory Item Not Found"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in inventory",
-        "Value1": "[Wizard HVamp Weapon]",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 5
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in bank",
-        "Value1": "[Wizard HVamp Weapon]",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
-        "TransferFromBank": true,
-        "ItemName": "[Wizard HVamp Weapon]"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "[Wizard HVamp Weapon]",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Wizard Health Vamp Item Not Found"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -1903,7 +1791,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
         "Tag": "Item",
         "Text": "Is equipped",
-        "Value1": "[Wizard HVamp Weapon]",
+        "Value1": "[Healer HVamp Weapon]",
         "Value2": ""
       },
       {
@@ -1913,7 +1801,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Wizard HVamp Weapon]"
+        "ItemName": "[Healer HVamp Weapon]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -2313,7 +2201,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
         "Tag": "Item",
         "Text": "Is equipped",
-        "Value1": "Lord of Order",
+        "Value1": "Dragon of Time",
         "Value2": ""
       },
       {
@@ -2323,7 +2211,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "Lord of Order"
+        "ItemName": "Dragon of Time"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -2406,12 +2294,20 @@
         "SafeMp": 100
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdHealthPercentageLessThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Health percentage is less than",
+        "Value1": "75",
+        "Value2": ""
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill2, Grimoire",
         "Monster": "*",
         "Skill": "2: Dragon's Will",
         "Index": "2",
         "SafeHp": 100,
-        "SafeMp": 100
+        "SafeMp": 100,
+        "Wait": true
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill2, Grimoire",
@@ -2528,7 +2424,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
         "Tag": "Item",
         "Text": "Is equipped",
-        "Value1": "ArchPaladin",
+        "Value1": "Dragon of Time",
         "Value2": ""
       },
       {
@@ -2538,7 +2434,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "ArchPaladin"
+        "ItemName": "Dragon of Time"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -2615,23 +2511,32 @@
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill2, Grimoire",
         "Monster": "*",
-        "Skill": "0: Auto attack",
-        "Index": "0",
+        "Skill": "1: Confluence of Fates",
+        "Index": "1",
         "SafeHp": 100,
         "SafeMp": 100
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdHealthLessThan, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdHealthPercentageLessThan, Grimoire",
         "Tag": "This player",
-        "Text": "Health is less than",
-        "Value1": "1500",
+        "Text": "Health percentage is less than",
+        "Value1": "60",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill2, Grimoire",
         "Monster": "*",
-        "Skill": "2: Hymn of Light",
+        "Skill": "2: Dragon's Will",
         "Index": "2",
+        "SafeHp": 100,
+        "SafeMp": 100,
+        "Wait": true
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill2, Grimoire",
+        "Monster": "*",
+        "Skill": "4: Hero's Heartbeat",
+        "Index": "4",
         "SafeHp": 100,
         "SafeMp": 100
       },
@@ -2646,7 +2551,7 @@
         "Tag": "Misc",
         "Text": "Int is less than",
         "Value1": "R6C",
-        "Value2": "200"
+        "Value2": "20"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -2670,7 +2575,7 @@
         "Tag": "Misc",
         "Text": "Int is greater than",
         "Value1": "R6C2",
-        "Value2": "100"
+        "Value2": "10"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -2754,7 +2659,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdEquipped, Grimoire",
         "Tag": "Item",
         "Text": "Is equipped",
-        "Value1": "[Wizard HVamp Weapon]",
+        "Value1": "[Healer HVamp Weapon]",
         "Value2": ""
       },
       {
@@ -2764,7 +2669,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdEquip, Grimoire",
-        "ItemName": "[Wizard HVamp Weapon]"
+        "ItemName": "[Healer HVamp Weapon]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
