@@ -262,7 +262,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "SWITCH HARD TO CODE/LOO HIT 100%"
+        "Name": "DOT ALWAYS HIT + HEAL ON 75% HP"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -277,7 +277,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "AP AUTOATTACK + HEAL ON 1500HP"
+        "Name": "DOT OUT HEAL DAMAGE"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -430,7 +430,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Script Is Made For Level 100 But if You Want To Try Without Level Check Remove Lines 84-85"
+        "Message": "Script Is Made For Level 100 But if You Want To Try Without Level Check Remove Lines 83-84"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -4013,6 +4013,14 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "iMax": 1200,
+    "sName": "Gravelyn",
+    "sLang": "it",
+    "iPort": 5589,
+    "sIP": "socket4.aq.com"
   },
   "SkillDelay": 100,
   "EnablePickup": true,
