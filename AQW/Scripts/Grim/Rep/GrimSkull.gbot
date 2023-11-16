@@ -430,7 +430,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Script Is Made For Level 100 But if You Want To Try Without Level Check Remove Lines 83-84"
+        "Message": "Required Level: 100"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -603,7 +603,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Elysium Item Not Found"
+        "Message": "Elysium Item Not Found Check Lines 26-34"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -638,7 +638,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Pneuma Item Not Found"
+        "Message": "Pneuma Item Not Found Check Lines 26-34"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -673,7 +673,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Vainglory Item Not Found"
+        "Message": "Vainglory Item Not Found Check Lines 26-34"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -708,7 +708,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Absolution Item Not Found"
+        "Message": "Absolution Item Not Found Check Lines 26-34"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -743,7 +743,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Dauntless Item Not Found"
+        "Message": "Dauntless Item Not Found Check Lines 26-34"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -778,7 +778,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Anima Item Not Found"
+        "Message": "Anima Item Not Found Check Lines 26-34"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -813,7 +813,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Healer Health Vamp Item Not Found"
+        "Message": "Healer Health Vamp Item Not Found Check Lines 26-34"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -848,7 +848,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Healer Helm Item Not Found"
+        "Message": "Healer Helm Item Not Found Check Lines 26-34"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -883,7 +883,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
-        "Message": "Penitence Item Not Found"
+        "Message": "Penitence Item Not Found Check Lines 26-34"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -1193,6 +1193,18 @@
         "QuestID": "9469"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIsNotMember, Grimoire",
+        "Tag": "This player",
+        "Text": "This player is not Member",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 5
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is not in progress",
@@ -1246,6 +1258,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
         "Message": "Farm Quest Not Available (Do The First Quests Manually Then Load This Bot To Farm The Dungeon)"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdFactionRankGreaterThan, Grimoire",
+        "Tag": "This player",
+        "Text": "Faction Rank is greater than",
+        "Value1": "Grimskull Trolling",
+        "Value2": "9"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStopBotWithMessage, Grimoire",
+        "Message": "Reputation Farm Complete"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
@@ -3938,6 +3961,18 @@
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest2, Grimoire",
         "QuestID": "9469"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIsNotMember, Grimoire",
+        "Tag": "This player",
+        "Text": "This player is not Member",
+        "Value1": "",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
